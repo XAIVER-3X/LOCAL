@@ -1,1 +1,5 @@
-FBDM/{density=2.0,width=720,height=1280};FBLC/en_US;FBCR/vodafone IE;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G850F;FBSV/5.0.2;nullFBCA/armeabi-v7a:armeabi;]
+def ugen1():
+    and_vern = str(random.randint(100,925))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150))
+    ver_code = random.randint(410000000,499999999)
+    ua = f"[FBAN/FB4A;FBAV/{and_vern};FBBV/{str(ver_code)};"+"FBPN/com.facebook.katana;FBLC/en_US;FBBV/897917364;FBCR/SUN Mobile;FBMF/samsung;FBBD/samsung;FBDV/Galaxy Trend II Duos S7572;FBSV/12.5;FBCA/armeabi v7a:armeabi;FBDM/{density=1.875,width=720,height=1457};FB_FW/1;]"
+    return str(ua)
