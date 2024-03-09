@@ -1,0 +1,1 @@
+FBDM/{density=2.0,width=720,height=1280};FBLC/en_US;FBCR/vodafone IE;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G850F;FBSV/5.0.2;nullFBCA/armeabi-v7a:armeabi;]
